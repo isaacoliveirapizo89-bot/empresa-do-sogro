@@ -1,0 +1,62 @@
+/* Define o estilo geral de todas as páginas. */
+body {
+  background-color: #fff8b6; /* Define a cor de fundo amarelo-claro. */
+  font-family: Arial, sans-serif; /* Usa Arial e alternativas sem serifa nos textos. */
+  margin: 0; /* Remove a margem padrão do navegador. */
+  color: #333; /* Define a cor padrão dos textos. */
+}
+
+/* Organiza o conteúdo em uma coluna centralizada e confortável para leitura. */
+.conteudo {
+  box-sizing: border-box; /* Inclui o espaço interno na largura total do elemento. */
+  max-width: 800px; /* Impede que o texto fique largo demais em telas grandes. */
+  margin: 40px auto; /* Adiciona espaço acima e centraliza horizontalmente. */
+  padding: 24px; /* Cria espaço entre o conteúdo e as bordas. */
+}
+
+/* Destaca e centraliza o título principal da empresa. */
+.titulo-destaque {
+  width: fit-content; /* Faz o fundo e a sombra acompanharem a largura do título. */
+  margin: 0 auto 36px; /* Centraliza o título e cria espaço abaixo dele. */
+  padding: 10px 20px; /* Cria espaço interno ao redor do texto. */
+  border-radius: 8px; /* Arredonda os cantos do destaque. */
+  box-shadow: 0 4px 8px rgba(219, 34, 21, 0.247); /* Adiciona uma sombra suave. */
+  color: #bb4444; /* Define a cor do título. */
+  text-align: center; /* Centraliza o texto do título. */
+}
+
+/* Centraliza o subtítulo e cria espaço abaixo dele. */
+h2 {
+  margin-bottom: 16px; /* Separa o subtítulo do texto seguinte. */
+  text-align: center; /* Centraliza o subtítulo. */
+}
+
+/* Melhora o espaçamento e a leitura dos parágrafos. */
+p {
+  margin: 0 0 16px; /* Cria espaço abaixo de cada parágrafo. */
+  font-size: 1.05rem; /* Deixa a letra um pouco maior que o tamanho padrão. */
+  line-height: 1.7; /* Aumenta o espaço entre as linhas do texto. */
+}
+
+/* Dá aparência de botão aos links de navegação. */
+.botao {
+  display: inline-block; /* Permite aplicar tamanho e espaço interno ao link. */
+  padding: 12px 20px; /* Aumenta a área clicável do botão. */
+  border-radius: 8px; /* Arredonda os cantos do botão. */
+  background-color: #bb4444; /* Define o fundo vermelho do botão. */
+  color: #fff; /* Deixa o texto do botão branco. */
+  font-weight: bold; /* Deixa o texto do botão em negrito. */
+  text-align: center; /* Centraliza o texto dentro do botão. */
+  text-decoration: none; /* Remove o sublinhado padrão dos links. */
+}
+
+/* Escurece o botão quando o ponteiro do mouse passa por cima. */
+.botao:hover {
+  background-color: #963535;
+}
+
+/* Mostra um contorno ao navegar até o botão usando o teclado. */
+.botao:focus-visible {
+  outline: 3px solid #333; /* Desenha um contorno escuro para indicar o foco. */
+  outline-offset: 3px; /* Afasta o contorno um pouco do botão. */
+}
